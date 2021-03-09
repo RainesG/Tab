@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>选项卡</title>
+    <link rel="stylesheet" href="./style/tab.css">
+    <script src="./scripts/tab.js" defer></script>
+</head>
+<body>
+    <div class="box-center flex">
+        <ul class="tab">
+            <li tabindex="1"></li>
+            <li tabindex="2"></li>
+            <li tabindex="3"></li>
+            <li tabindex="4"></li>
+            <li tabindex="5"></li>
+            <li tabindex="6"></li>
+            <li tabindex="7"></li>
+            <li tabindex="8"></li>
+        </ul>
+
+        <ul class="content flex">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div class="get">
+        <input type="text" autofocus id="name" name="name" list="images">
+        <datalist id="images">
+            <option value="cat"></option>
+            <option value="Porsche"></option>
+        </datalist>
+        <button>获取</button>
+    </div>
+        
+</body>
+</html>
